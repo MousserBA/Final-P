@@ -1,0 +1,180 @@
+.head-bar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-right: 220px;
+}
+.space{
+    height: 150px;
+}
+.body{
+    background-color: hsla(120, 61%, 34%, 0.164);
+}
+.head-bar-right{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+}
+.head-button{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.head-button:hover{
+    color: darkcyan;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+    margin-left: 220px;
+}
+.title{
+    text-align-last: center;
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.parag{
+    color: gray;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.first-part{
+    display: flex;
+    margin-right: 210px;
+    margin-left: 210px;
+    padding-top: 20px;
+}
+.gridbox{
+color: darkcyan;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 50px;
+font-weight: bold;
+}
+.grey-box{
+background-color: rgba(128, 128, 128, 0.452);
+display: flex;
+margin-left: 100px;
+margin-right: 70px;
+height: 300px;
+align-items: center;
+}
+.right-box{
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-around;
+    margin-right: 220px;
+    border-radius: 10px;
+    align-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+.white-box{
+    background-color: white;
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+    font-size: small;
+}
+.left-box{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    padding-top: 30px;
+    color: gray;
+}
+.button-blue{
+    text-align: center;
+}
+.end{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-left: 210px;
+    padding-right: 210px;
+    font-size: small;
+}
+.topbar{
+    display: flex;
+    background-color: rgb(197, 51, 51);
+    height: 50px;
+    width: 100px;
+}
+.TOPB{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 220px;
+    padding-right: 220px;
+    background-color: white;
+    margin-left: -8px;
+    margin-top: -8px;
+}.annonce{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.annonce-box{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    height: 30px;
+}
+.annonce-box1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    height: 20px;
+}
+.annonce-box1:hover{
+    background-color: hsla(120, 61%, 34%, 0.164);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    height: 20px;
+}
+.annonce-content{
+    background-color: hsla(120, 61%, 34%, 0.164);
+    margin-right: 250px;
+    margin-left: 250px;
+    height: 150px;
+    padding: 10px;
+}
+.button-add{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 900px;
+    margin-right: 250px;
+}
+.plus{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25%;
+    text-align: center;
+    margin-top: 15px;
+}
+ @media screen and (max-width: 300px){
+    .small-logo{
+        display: none;
+    }
+  }
